@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
   const StyledFooter = styled('footer')`
     text-align: center;
     margin-block: 2rem;
-    padding: 1rem;
+    padding: 1rem 1rem 0 1rem;
 
     font-size: 14px;
 
@@ -19,9 +19,9 @@ const Footer: React.FC = () => {
 
   return (
     <StyledFooter>
-      <div>by Mageiden {currentYear}</div>
+      <div>by Mageiden &copy; {currentYear}</div>
       <div>
-        <a href='#'>Privacy Policy</a> | <a href='#'>Terms and Conditions</a>
+        <a href='#'>Privacy Policy</a>
       </div>
     </StyledFooter>
   );

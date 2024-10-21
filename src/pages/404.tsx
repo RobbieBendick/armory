@@ -6,10 +6,9 @@ export function FourOhFourPage() {
       display='flex'
       flexDirection='column'
       alignItems='center'
-      sx={{
-        mt: 4,
-        minHeight: '80vh',
-      }}
+      justifyContent='center'
+      mt={4}
+      minHeight='80vh'
     >
       <Typography textAlign='center' fontSize='24px' mt={3}>
         Sorry! The page that you tried to access doesn't exist.
